@@ -22,6 +22,14 @@
 	        <nav>
 	        	<ul>
 	        		<li><a href="catalog.html">Каталог товаров</a></li>
+	        			<ul>
+	        				<li><a href="#">Виртуальная реальность</a></li>
+	        				<li><a href="#">Моноподы для селфи</a></li>
+	        				<li><a href="#">Экшн-камер</a></li>
+	        				<li><a href="#">Фитнес-браслеты</a></li>
+	        				<li><a href="#">Умные часы</a></li>
+	        				<li><a href="#">Квадрокоптеры</a></li>
+	        			</ul>
 	        		<li><a href="delivery.html">Доставка</a></li>
 	        		<li><a href="warranty.html">Гарантия</a></li>
 	        		<li><a href="contacts.html">Контакты</a></li>
@@ -37,15 +45,57 @@
 	    		<li><a href="#">Моноподы для селфи</a></li>
 	    	</ul>
     	</div>
-    	<section>
+    	<form class="filter" method="get" action="#">
     		<h2>Цвет</h2>
-    		<!-- Тут будет форма-->
+    		<ul>
+    			<li>
+    				<input type="checkbox" name="Черный" id="filter-Черный" checked>
+    				<label for="filter-Черный">Черный</label>
+    			</li>
+    			<li>
+    				<input type="checkbox" name="Белый" id="filter-Белый">
+    				<label for="filter-Белый">Белый</label>
+    			</li>
+    			<li>
+    				<input type="checkbox" name="Синий" id="filter-Синий" checked>
+    				<label for="filter-Сиий">Синий</label>
+    			</li>
+    			<li>
+    				<input type="checkbox" name="Красный" id="filter-Красный" checked>
+    				<label for="filter-Красный">Красный</label>
+    			</li>
+    			<li>
+    				<input type="checkbox" name="Розовый" id="filter-Розовый">
+    				<label for="filter-Розовый">Розовый</label>
+    			</li>
+    		</ul>
     		<h2>Bluetooth</h2>
-    		<!-- Тут будет форма-->
-        	<a href="#">ПОКАЗАТЬ</a>
-    	</section>
+    		<ul>
+    			<li>
+    				<input type="radio" name="Bluetooth-есть" id="filter-Bluetooth-есть"  checked>
+    				<label for="filter-Bluetooth-есть">Есть</label>
+    			</li>
+    			<li>
+    				<input type="radio" name="Bluetooth-нет" id="filter-Bluetooth-нет">
+    				<label for="filter-Bluetooth-нет">нет</label>
+    			</li>
+    		</ul>
+    	<button type="submit">ПОКАЗАТЬ</button>
+    	</form>
 		<section>
 			<h2>Каталог товаров</h2>
+			<div>
+				<p>Сортировка:</p>
+				<ul>
+					<li><a href="">По цене</a></li>
+					<li><a href="">По типу</a></li>
+					<li><a href="">По популярности</a></li>
+				</ul>
+				<ul>
+					<li><a href="">По возрастанию</a></li>
+					<li><a href="">По убыванию</a></li>
+				</ul>
+			</div>
 			<ul>
 				<li>
 					<img src="img/item-1-jpg.jpg" alt="Изображение 1 (Любительская селфи-палка)">

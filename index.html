@@ -11,7 +11,7 @@
 			<a><img src="img/device.svg" name="Лого" alt="Логотип Device"></a>
 			<!-- Здесь будет форма "Поиск по сайту"-->
 			<ul>
-				<li><a href="#">Войти</a></li>
+				<li><a href="login.html">Войти</a></li>
 			</ul>
 			<ul>
 				<li><a href="#">Сравнить</a></li>
@@ -20,7 +20,11 @@
 	  	</section>
 	        <nav>
 	        	<ul>
-	        		<li><a href="catalog.html">Каталог товаров</a></li>
+	        		<li><a href="catalog.html">Каталог товаров</a>
+						<ul>
+							<li><a href="#"></a></li>
+						</ul>
+	        		</li>
 	        		<li><a href="delivery.html">Доставка</a></li>
 	        		<li><a href="warranty.html">Гарантия</a></li>
 	        		<li><a href="contacts.html">Контакты</a></li>
@@ -56,8 +60,26 @@
 			</div>
 			<a href="">Напишите нам</a>
 		</section>
+		<form action="#" method="post">
+			<p>
+				<label for="Ваше имя:">Ваше имя:</label>
+				<input type="text" name="Ваше имя:" placeholder="Имя Фамилия">
+			<p>
+				<label for="Ваш e-mail:">Ваш e-mail:</label>
+				<input type="text" name="Ваш e-mail:" placeholder="email@example.c">
+			</p>
+			<p>
+				<textarea name="comment" id="comment-field" rows="10" placeholder="В свободной форме">Текст письма</textarea>
+				<input type="submit" value="Отправить">
+			</p>
+			<button type="buttom" aria-lable="Закрыть"><img src="img/modal-close.svg"></button>
+		</form>
+		<div>
+			<a href="#"><img src="img/map-big-jpg.jpg" alt="Карта"></a>	
+			<button type="buttom" aria-lable="Закрыть"><img src="img/modal-close.svg"></button>
+		</div>
     </main>
-   <footer>
+    <footer>
     	<section>
     		<h3>Личный кабинет</h3>
 			<a><img src="img/device.svg" name="Лого" alt="Логотип Device"></a>
