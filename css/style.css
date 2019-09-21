@@ -28,10 +28,67 @@ html {
 	font-family: "Gilroy", "OpenSans", sans-serif;
 }
 
+/* пока пустой класс 
+.visually-hidden {
+
+}
+*/
+
+/* index.html */
 /* классы header начало */
+.header-index {
+  background-color: #f0c52e;
+}
+
 .popup {
 	display: none;
 }
+
+
+.form-search {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.form-search:hover, 
+.form-search:focus {
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.a11:active {
+  color: #000000;
+}
+
+
+/* пока это класс без свойств 
+.user-nav {
+
+}
+*/
+
+.logo-header {
+
+}
+
+.logo-header:hover {
+  opacity: 0.6;
+}
+
+.logo-header:active {
+  opacity: 0.3;
+}
+
+.user-link {
+
+}
+
 
 .user-list a {
   font-family: OpenSans;
@@ -45,7 +102,16 @@ html {
   color: #000000;
 }
 
-.purchase-list {
+.user-list a:hover {
+  opacity: 0.6;
+}
+
+.user-list a:active {
+  opacity: 0.3;
+}
+
+
+.purchase-list a {
   font-family: OpenSans;
   font-size: 15px;
   font-weight: 300;
@@ -57,9 +123,19 @@ html {
   color: #000000;
 }
 
-.header-navigation {
-
+.purchase-list a:hover {
+  opacity: 0.6;
 }
+
+.purchase-list a:active {
+  opacity: 0.3;
+}
+
+/* пока это класс без свойств 
+.header-navigation {
+  
+}
+*/
 
 .nav-list a{
   font-size: 18px;
@@ -73,29 +149,51 @@ html {
   text-transform: uppercase;
 }
 
-.catalog-link {
+.nav-list a:hover {
+  opacity: 0.6
+}
 
-  font-family: Gilroy;
-  font-size: 18px;
-  font-weight: 800;
+.nav-list a:hover {
+  opacity: 0.3
+}
+
+.items-list a {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: 3.6px;
+  line-height: 2.4;
+  letter-spacing: 0.15px;
   text-align: left;
   color: #000000;
+  text-transform: none;
+}
+
+.items-list a:hover {
+  opacity: 0.6;
+}
+
+.items-list a:active {
+  opacity: 0.3;
 }
 
 .header-navigation {
 
 }
-/* классы header закончились */
+/* классы в header закончились */
+/* классы в main, начало*/
+
+/* пока эти классы без свойств 
 .main-head {
 
 }
+.main-section {
 
-.main-paragraph {
-  
+}
+*/ 
+
+.main-head2 {
   font-family: Gilroy;
   font-size: 47px;
   font-weight: 800;
@@ -105,4 +203,363 @@ html {
   letter-spacing: 0.47px;
   text-align: left;
   color: #000000;
+
+}
+.main-paragraph {
+  
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464646;
+}
+
+.main-links {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2.5;
+  color: #000000;
+}
+
+.main-details {
+
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #000000;
+}
+
+.contacts {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.47px;
+  text-align: left;
+  color: #000000;
+
+}
+
+/* пока это класс без свойств
+.contacts-section {
+
+}
+*/
+
+.contacts-head {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.47px;
+  text-align: left;
+  color: #000000;
+}
+
+.contacts-text {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464646;
+}
+
+/* пока это класс без свойств
+.main-map {
+
+}
+
+.map-link {
+
+}
+*/
+
+.contact-as {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #000000;
+}
+
+/* классы в main закончились */
+/* классы в footer начало */
+
+.adress {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.contact-number {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--white);
+}
+
+/*пока пустые классы
+.social-sites {
+
+}
+
+.html_ac {
+
+}
+
+.footer {
+
+}
+*/
+.logo-footer {
+
+}
+
+.logo-footer:hover {
+  opacity: 0.6;
+}
+
+.logo-footer:active {
+  opacity: 0.3;
+}
+
+.footer-index {
+  background-color: #464646;
+}
+
+/* catalog.html */
+.header-catalog {
+  background-color: #f0c52e;
+}
+
+.catalog-head {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.47px;
+  text-align: left;
+  color: #000000;
+}
+
+/*пока пустой класс
+.div-list {
+
+}
+ */
+
+.list-nav a{
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/*пока пустой класс
+.filter {
+
+}
+ */
+
+.color-form {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.18px;
+  text-align: left;
+  color: #000000;
+}
+
+.color-list label{
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.86;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #000000;
+}
+
+.checkbox-type {
+  width: 27px;
+  height: 23px;
+  object-fit: contain;
+}
+
+.checkbox-type:hover {
+  opacity: 0.6;
+}
+
+.checkbox-type:action {
+  width: 1440px;
+  height: 6228px;
+  object-fit: contain;
+}
+
+.Bluetooth-form {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.18px;
+  text-align: left;
+  color: #000000;
+}
+
+.Bluetooth-list label{
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.86;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #000000;
+}
+
+.radio-type {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.radio-type:hover {
+  object-fit: contain;
+  opacity: 0.6;
+}
+
+.radio-type:action {
+  width: 1440px;
+  height: 6228px;
+  object-fit: contain;
+}
+
+.submit-button {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #000000;
+
+}
+
+/*пока пустой класс
+.items-head {
+
+}
+ */
+
+.sort-head {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 3.2px;
+  text-align: left;
+  color: #000000;
+}
+
+.sort-func a {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort-func a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sort-func a:action {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.items-description a {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.18px;
+  text-align: left;
+  color: #000000;
+}
+
+.price-items{
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: right;
+  color: #464646;
 }
