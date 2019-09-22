@@ -92,7 +92,7 @@ html {
    color: rgba(0, 0, 0, 0.6);
 }
 
-.a11:active {
+.form-search:active {
   color: #000000;
 }
 
@@ -119,6 +119,9 @@ html {
 
 }
 
+.user-list {
+  list-style: none;
+}
 
 .user-list a {
   font-family: OpenSans;
@@ -130,6 +133,7 @@ html {
   letter-spacing: 0.15px;
   text-align: left;
   color: #000000;
+  text-decoration: none;
 }
 
 .user-list a:hover {
@@ -140,6 +144,9 @@ html {
   opacity: 0.3;
 }
 
+.purchase-list {
+  list-style: none;
+}
 
 .purchase-list a {
   font-family: OpenSans;
@@ -151,6 +158,7 @@ html {
   letter-spacing: 0.15px;
   text-align: left;
   color: #000000;
+  text-decoration: none;
 }
 
 .purchase-list a:hover {
@@ -166,6 +174,9 @@ html {
   
 }
 */
+.nav-list {
+  list-style: none;
+}
 
 .nav-list a{
   font-size: 18px;
@@ -177,6 +188,7 @@ html {
   text-align: left;
   color: #000000;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-list a:hover {
@@ -185,6 +197,10 @@ html {
 
 .nav-list a:hover {
   opacity: 0.3
+}
+
+.items-list {
+  list-style: none;
 }
 
 .items-list a {
@@ -198,6 +214,7 @@ html {
   text-align: left;
   color: #000000;
   text-transform: none;
+  text-decoration: none;
 }
 
 .items-list a:hover {
@@ -249,11 +266,16 @@ html {
 }
 
 .main-links {
+  list-style: none;
+}
+
+.main-links a{
   font-family: Gilroy;
   font-size: 16px;
   font-weight: 800;
   line-height: 2.5;
   color: #000000;
+  text-decoration: none;
 }
 
 .main-details {
@@ -267,6 +289,7 @@ html {
   letter-spacing: 3.6px;
   text-align: center;
   color: #000000;
+  text-decoration: none;
 }
 
 .contacts {
@@ -322,7 +345,7 @@ html {
 }
 */
 
-.contact-as {
+.contact-us {
   font-family: Gilroy;
   font-size: 18px;
   font-weight: 800;
@@ -332,6 +355,7 @@ html {
   letter-spacing: 3.6px;
   text-align: center;
   color: #000000;
+  text-decoration: none;
 }
 
 /* классы в main закончились */
@@ -361,11 +385,12 @@ html {
   color: var(--white);
 }
 
-/*пока пустые классы
+
 .social-sites {
-
+  text-decoration: none;
+  list-style: none;
 }
-
+/*
 .html_ac {
 
 }
@@ -412,6 +437,9 @@ html {
 
 }
  */
+.list-nav {
+  list-style: none;
+}
 
 .list-nav a{
   font-family: OpenSans;
@@ -423,6 +451,7 @@ html {
   letter-spacing: 0.14px;
   text-align: left;
   color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
 
 /*пока пустой класс
@@ -443,6 +472,10 @@ html {
   color: #000000;
 }
 
+.color-list {
+  list-style: none;
+}
+
 .color-list label{
   font-family: OpenSans;
   font-size: 14px;
@@ -453,6 +486,7 @@ html {
   letter-spacing: 0.14px;
   text-align: left;
   color: #000000;
+  text-decoration: none;
 }
 
 .checkbox-type {
@@ -471,6 +505,7 @@ html {
   object-fit: contain;
 }
 
+
 .Bluetooth-form {
   font-family: Gilroy;
   font-size: 18px;
@@ -483,6 +518,10 @@ html {
   color: #000000;
 }
 
+.Bluetooth-list {
+  list-style: none;
+}
+
 .Bluetooth-list label{
   font-family: OpenSans;
   font-size: 14px;
@@ -493,6 +532,7 @@ html {
   letter-spacing: 0.14px;
   text-align: left;
   color: #000000;
+  text-decoration: none;
 }
 
 .radio-type {
@@ -543,6 +583,10 @@ html {
   color: #000000;
 }
 
+.sort-func {
+  list-style: none;
+}
+
 .sort-func a {
   font-family: OpenSans;
   font-size: 14px;
@@ -553,6 +597,7 @@ html {
   letter-spacing: normal;
   text-align: left;
   color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
 
 .sort-func a:hover {
@@ -571,6 +616,10 @@ html {
   color: #000000;
 }
 
+.items-description {
+  list-style: none;
+}
+
 .items-description a {
   font-family: Gilroy;
   font-size: 18px;
@@ -581,6 +630,7 @@ html {
   letter-spacing: 0.18px;
   text-align: left;
   color: #000000;
+  text-decoration: none;
 }
 
 .price-items{
