@@ -54,15 +54,19 @@
   font-style: normal;
 }
 
-html {
-	font-family: "Gilroy", "OpenSans", sans-serif;
+body {
+	font-family: "Gilroy", "Arial", sans-serif;
 }
 
-/* пока пустой класс 
+
 .visually-hidden {
-
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
-*/
+
 
 /* index.html */
 /* классы header начало */
@@ -76,7 +80,7 @@ html {
 
 
 .form-search {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -124,7 +128,7 @@ html {
 }
 
 .user-list a {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -149,7 +153,7 @@ html {
 }
 
 .purchase-list a {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -195,7 +199,7 @@ html {
   opacity: 0.6
 }
 
-.nav-list a:hover {
+.nav-list a:active {
   opacity: 0.3
 }
 
@@ -204,7 +208,7 @@ html {
 }
 
 .items-list a {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -231,17 +235,14 @@ html {
 /* классы в header закончились */
 /* классы в main, начало*/
 
-/* пока эти классы без свойств 
-.main-head {
-
-}
+/* пока этот класс без свойств 
 .main-section {
 
 }
 */ 
 
 .main-head2 {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
   font-style: normal;
@@ -254,7 +255,7 @@ html {
 }
 .main-paragraph {
   
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -270,7 +271,7 @@ html {
 }
 
 .main-links a{
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 2.5;
@@ -280,7 +281,7 @@ html {
 
 .main-details {
 
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -290,10 +291,11 @@ html {
   text-align: center;
   color: #000000;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .contacts {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
   font-style: normal;
@@ -312,7 +314,7 @@ html {
 */
 
 .contacts-head {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
   font-style: normal;
@@ -324,7 +326,7 @@ html {
 }
 
 .contacts-text {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -346,7 +348,7 @@ html {
 */
 
 .contact-us {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -356,13 +358,91 @@ html {
   text-align: center;
   color: #000000;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* классы в main закончились */
 /* классы в footer начало */
 
+.footer-ul {
+  list-style: none;
+}
+
+.footer-ul a {
+  font-family:"OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.footer-ul a:hover {
+  opacity: 0.6;
+}
+
+.footer-ul a:active {
+  opacity: 0.3;
+}
+
+
+.footer-pl {
+  list-style: none;
+}
+
+.footer-pl a {
+  font-family:"OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.footer-pl a:hover {
+  opacity: 0.6;
+}
+
+.footer-pl a:active {
+  opacity: 0.3;
+}
+
+.footer-nl {
+  list-style: none;
+}
+
+.footer-nl a{
+  font-family:"Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-nl a:hover {
+  opacity: 0.6
+}
+
+.footer-nl a:active {
+  opacity: 0.3
+}
+
 .adress {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -370,11 +450,11 @@ html {
   line-height: 2;
   letter-spacing: normal;
   text-align: left;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .contact-number {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -382,7 +462,7 @@ html {
   line-height: 2;
   letter-spacing: normal;
   text-align: right;
-  color: var(--white);
+  color: #ffffff;
 }
 
 
@@ -391,7 +471,7 @@ html {
   list-style: none;
 }
 /*
-.html_ac {
+.html-ac {
 
 }
 
@@ -415,13 +495,15 @@ html {
   background-color: #464646;
 }
 
+
+
 /* catalog.html */
 .header-catalog {
   background-color: #f0c52e;
 }
 
 .catalog-head {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
   font-style: normal;
@@ -442,7 +524,7 @@ html {
 }
 
 .list-nav a{
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -461,7 +543,7 @@ html {
  */
 
 .color-form {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -477,7 +559,7 @@ html {
 }
 
 .color-list label{
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -507,7 +589,7 @@ html {
 
 
 .Bluetooth-form {
-  font-family: Gilroy;
+  font-family:"Gilroy", A"Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -523,7 +605,7 @@ html {
 }
 
 .Bluetooth-list label{
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -553,7 +635,7 @@ html {
 }
 
 .submit-button {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -572,7 +654,7 @@ html {
  */
 
 .sort-head {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 800;
   font-style: normal;
@@ -581,6 +663,7 @@ html {
   letter-spacing: 3.2px;
   text-align: left;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .sort-func {
@@ -588,7 +671,7 @@ html {
 }
 
 .sort-func a {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -605,7 +688,7 @@ html {
 }
 
 .sort-func a:action {
-  font-family: OpenSans;
+  font-family:"OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -621,7 +704,7 @@ html {
 }
 
 .items-description a {
-  font-family: Gilroy;
+  font-family:"Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
