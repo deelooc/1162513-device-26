@@ -56,6 +56,7 @@
 
 body {
 	font-family: "Gilroy", "Arial", sans-serif;
+  width: 1440px;
 }
 
 
@@ -71,7 +72,13 @@ body {
 /* index.html */
 /* классы header начало */
 .header-index {
-  background-color: #f0c52e;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 40px;
+  padding-bottom: 166px;
+  /*margin-bottom: ;*/
+  background-color: rgba(240, 197, 46, 0.5);
+  outline: 2px solid fuchsia;
 }
 
 .popup {
@@ -93,22 +100,34 @@ body {
 
 .form-search:hover, 
 .form-search:focus {
-   color: rgba(0, 0, 0, 0.6);
+color: rgba(0, 0, 0, 0.6);
 }
 
 .form-search:active {
   color: #000000;
 }
 
-
-/* пока это класс без свойств 
-.user-nav {
-
+.user-nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 61px;
+  margin-left: 63px;
+  margin-top: 23px;
+  outline: 2px solid blue;
 }
-*/
+
+.user-nav {
+  padding-top: 1px;
+  outline: 2px solid fuchsia;
+}
+
 
 .logo-header {
-
+  display: block;
+  width: 163px;
+  margin-top: -20px;
+  margin-left: 51px;
+  outline: 2px solid red;
 }
 
 .logo-header:hover {
@@ -119,12 +138,18 @@ body {
   opacity: 0.3;
 }
 
-.user-link {
-
-}
 
 .user-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
+  outline: 2px solid black;
+}
+
+.user-list li {
+  width: 66px;
+  padding-left: 158px;
 }
 
 .user-list a {
@@ -149,7 +174,21 @@ body {
 }
 
 .purchase-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+  margin-left: 40px;
   list-style: none;
+  outline: 2px solid orange;
+}
+
+.purchase-list li {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  margin-right: 40px;
+  outline: 1px dotted yellow;
 }
 
 .purchase-list a {
@@ -158,10 +197,10 @@ body {
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 2;
+  line-height: 2.4;
   letter-spacing: 0.15px;
   text-align: left;
-  color: #000000;
+  color: black;
   text-decoration: none;
 }
 
@@ -175,11 +214,29 @@ body {
 
 /* пока это класс без свойств 
 .header-navigation {
-  
-}
-*/
+  */
+
+
+
 .nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+  margin-left: 50px;
+  margin-top: 40px;
   list-style: none;
+  outline: 2px solid green;
+}
+
+.nav-list li:nth-of-type(1) {
+  margin-right: 323px;
+}
+.nav-list li:nth-of-type(2) {
+  margin-right: 34px;
+}
+.nav-list li:nth-of-type(3) {
+  margin-right: 108px;
 }
 
 .nav-list a{
@@ -205,6 +262,9 @@ body {
 
 .items-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
 }
 
 .items-list a {
@@ -231,15 +291,24 @@ body {
 
 .header-navigation {
 
+
 }
 /* классы в header закончились */
 /* классы в main, начало*/
 
-/* пока этот класс без свойств 
-.main-section {
-
+.container-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  outline: 2px solid green;
 }
-*/ 
+
+
+.main-section {
+  outline: 2px solid lightblue;
+}
+
 
 .main-head2 {
   font-family:"Gilroy", "Arial", sans-serif;
@@ -307,11 +376,11 @@ body {
 
 }
 
-/* пока это класс без свойств
-.contacts-section {
 
+.contacts-section {
+  outline: 2px solid red;
 }
-*/
+
 
 .contacts-head {
   font-family:"Gilroy", "Arial", sans-serif;
@@ -364,8 +433,33 @@ body {
 /* классы в main закончились */
 /* классы в footer начало */
 
+.footer-user-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 61px;
+  margin-left: 63px;
+  margin-top: 23px;
+  outline: 2px solid blue;
+}
+
 .footer-ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 40px;
   list-style: none;
+  outline: 2px solid black;
+}
+
+.footer-ul li {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  outline: 2px dotted blue;
+}
+
+.footer-ul li:nth-of-type(1) {
+  padding-left: 27px;
 }
 
 .footer-ul a {
@@ -391,8 +485,24 @@ body {
 
 
 .footer-pl {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+  margin-left: 40px;
   list-style: none;
+  outline: 2px solid orange;
+  
 }
+
+.footer-pl li {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  margin-right: 40px;
+  outline: 1px dotted yellow;
+}
+
 
 .footer-pl a {
   font-family:"OpenSans", "Arial", sans-serif;
@@ -416,7 +526,20 @@ body {
 }
 
 .footer-nl {
+  display: flex;
   list-style: none;
+  outline: 2px solid yellow;
+}
+
+.footer-nl li:nth-of-type(1) {
+  margin-left: 15px;
+}
+.footer-nl li:nth-of-type(2) {
+  margin-left: 15px;
+}
+.footer-nl li:nth-of-type(3) {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .footer-nl a{
@@ -444,13 +567,14 @@ body {
 .adress {
   font-family:"OpenSans", "Arial", sans-serif;
   font-size: 15px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 2;
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  outline: 2px solid orange;
+  margin-left: 15px;
 }
 
 .contact-number {
@@ -463,24 +587,49 @@ body {
   letter-spacing: normal;
   text-align: right;
   color: #ffffff;
+  outline: 2px solid gray;
+  margin-right: 15px;
 }
 
 
 .social-sites {
+  display: flex;
+  margin-left: 500px;
   text-decoration: none;
   list-style: none;
+  outline: 2px solid red;
+}
+
+.social-sites li:nth-of-type(1) {
+  margin-left: 15px;
+}
+.social-sites li:nth-of-type(2) {
+  margin-left: 15px;
+}
+.social-sites li:nth-of-type(3) {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.html-ac {
+  display: flex;
+  margin-left: 361px;
+  text-decoration: none;
+  list-style: none;
+  outline: 2px solid red;
 }
 /*
-.html-ac {
-
-}
-
 .footer {
 
 }
 */
 .logo-footer {
-
+  display: block;
+  width: 163px;
+  margin-top: 65px;
+  margin-left: 51px;
+  outline: 2px solid red;
 }
 
 .logo-footer:hover {
@@ -492,14 +641,25 @@ body {
 }
 
 .footer-index {
+  
+  padding-bottom: 166px;
+  /*margin-bottom: ;*/
   background-color: #464646;
+  outline: 2px solid fuchsia;
+  
 }
 
 
 
 /* catalog.html */
 .header-catalog {
-  background-color: #f0c52e;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 40px;
+  padding-bottom: 166px;
+  /*margin-bottom: ;*/
+  background-color: rgba(240, 197, 46, 0.5);
+  outline: 2px solid fuchsia;
 }
 
 .catalog-head {
@@ -514,13 +674,110 @@ body {
   color: #000000;
 }
 
-/*пока пустой класс
+.super-container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  /*justify-content: space-between;*/
+  outline: 2px dotted pink;
+}
+
+.container-lvl1 {
+  width: 180px;
+  outline: 2px dotted green;
+}
+
+.container-lvl2 {
+  width: 700px;
+  outline: 2px dotted purple;
+}
+
+
+.user-list-cat {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 40px;
+  list-style: none;
+  outline: 2px solid black;
+}
+
+.user-list-cat li {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  outline: 2px dotted blue;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-list-cat li:nth-of-type(1) a{
+  padding-left: 27px;
+  color: black;
+}
+
+
+.user-list-cat a {
+  font-family:"OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.user-list-cat a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user-list-cat a:active {
+  color: #000000;
+}
+
+
 .div-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 2px solid brown;
 
 }
- */
+
+.sort-func {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  outline: 2px solid red;
+}
+
+.sort-fund li {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+}
+
+
 .list-nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.list-nav li {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  outline: 2px dotted blue;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.list-nav li:nth-of-type(1) a{
+  padding-left: 27px;
 }
 
 .list-nav a{
@@ -536,11 +793,19 @@ body {
   text-decoration: none;
 }
 
-/*пока пустой класс
-.filter {
-
+.list-nav a:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
- */
+
+.list-nav a:active {
+ color: #000000;
+}
+
+
+.filter {
+  
+}
+
 
 .color-form {
   font-family:"Gilroy", "Arial", sans-serif;
@@ -700,6 +965,10 @@ body {
 }
 
 .items-description {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -716,6 +985,21 @@ body {
   text-decoration: none;
 }
 
+.catalog-item {
+  width: 220px;
+  min-height: 285px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  outline: 2px dotted black;
+}
+
+.item-text {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 2px dotted green;
+}
+
 .price-items{
   font-size: 16px;
   font-weight: 300;
@@ -725,4 +1009,30 @@ body {
   letter-spacing: 0.16px;
   text-align: right;
   color: #464646;
+}
+
+.footer-inf-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: 2px solid purple;
+}
+
+.footer-buttom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: 2px solid green;
+}
+
+.footer-catalog {
+  
+  padding-bottom: 166px;
+  /*margin-bottom: ;*/
+  background-color: #464646;
+  outline: 2px solid fuchsia;
+  
 }

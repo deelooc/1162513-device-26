@@ -11,17 +11,19 @@
 		<section class="user-nav">
 			<h3 class="visually-hidden">Личный кабинет</h3>
 			<a class="logo-header"><img src="img/device.svg" name="Лого" alt="Логотип Device"></a>
-			<form action="#" method="post">
-        		<label class="form-search" for="search">Поиск по сайту</label>
-       		    <input type="search" name="search" id="search">
-       		</form>
-			<ul class="user-list">
-				<li><a href="login.html">Войти</a></li>
-			</ul>
-			<ul class="purchase-list">
-				<li><a href="#">Сравнить</a></li>
-				<li><a href="#">Корзина</a></li>
-			</ul>
+			<div class="user-nav-wrapper">
+				<form action="#" method="post">
+	        		<label class="form-search" for="search">Поиск по сайту</label>
+	       		    <input type="search" name="search" id="search">
+	       		</form>
+				<ul class="user-list">
+					<li><a href="login.html">Войти</a></li>
+				</ul>
+				<ul class="purchase-list">
+					<li><a href="#">Сравнить</a></li>
+					<li><a href="#">Корзина</a></li>
+				</ul>
+			</div>
 	  	</section>
 	        <nav class="header-navigation">
 	        	<ul class="nav-list">
@@ -43,33 +45,35 @@
     </header>
     <main>
     	<h1 class="visually-hidden">Интернет магазин DEVICE</h1>
-    	<section class="main-section">
-    		<h2 class="main-head2">О нас</h2>
-    		<p class="main-paragraph">
-    			Огромный выбор гаджетов не оставит равнодушным гика, 
-    			который есть в каждом из нас. 
+	    <div class="container-main">
+	    	<section class="main-section">
+	    		<h2 class="main-head2">О нас</h2>
+	    		<p class="main-paragraph">
+	    			Огромный выбор гаджетов не оставит равнодушным гика, 
+	    			который есть в каждом из нас. 
 
-    			Мы можем доставить ваш товар в самые отдаленные точки 
-    			России! DEVICE работает со многими транспортными компаниями:
-    		</p>
-    		<ul class="main-links">
-	          	<li><a href="#">Деловые линии</a></li>
-	          	<li><a href="#">Автотрейдинг</a></li>
-	         	<li><a href="#">ЖелДорЭкспедиция</a></li>
-     		</ul>
-    		<a class="main-details" href="#">Подробнее о нас</a>
-    	</section>
-		<section class="contacts-section">
-			<h2 class="contacts-head">Контакты</h2>
-			<p class="contacts-text">
-				Вы можете забрать товар сами, заехав в наш в офис. Заодно, вы сможете 
-				проверить работоспособность покупки. Всякое бывает.
-			</p>
-			<div class="main-map" id="map">
-				<a class="map-link"><img src="img/map-jpg.jpg" alt="Карта"></a>			
-			</div>
-			<a class="contact-us" href="">Напишите нам</a>
-		</section>
+	    			Мы можем доставить ваш товар в самые отдаленные точки 
+	    			России! DEVICE работает со многими транспортными компаниями:
+	    		</p>
+	    		<ul class="main-links">
+		          	<li><a href="#">Деловые линии</a></li>
+		          	<li><a href="#">Автотрейдинг</a></li>
+		         	<li><a href="#">ЖелДорЭкспедиция</a></li>
+	     		</ul>
+	    		<a class="main-details" href="#">Подробнее о нас</a>
+	    	</section>
+			<section class="contacts-section">
+				<h2 class="contacts-head">Контакты</h2>
+				<p class="contacts-text">
+					Вы можете забрать товар сами, заехав в наш в офис. Заодно, вы сможете 
+					проверить работоспособность покупки. Всякое бывает.
+				</p>
+				<div class="main-map" id="map">
+					<a class="map-link"><img src="img/map-jpg.jpg" alt="Карта"></a>			
+				</div>
+				<a class="contact-us" href="">Напишите нам</a>
+			</section>
+		</div>
 		<div class="popup">
 			<form action="#" method="post">
 				<p>
@@ -93,38 +97,44 @@
     	<section class="user-nav">
     		<h3 class="visually-hidden">Личный кабинет</h3>
 			<a class="logo-footer"><img src="img/logo_mc.svg" name="Лого" alt="Логотип Device"></a>
-			<ul class="footer-ul">
-				<li><a href="#">Войти</a></li>
-			</ul>
-			<ul class="footer-pl">
-				<li><a href="#">Сравнить</a></li>
-				<li><a href="#">Корзина</a></li>
-			</ul>
+			<div class="footer-user-wrapper">
+				<ul class="footer-ul">
+					<li><a href="#">Войти</a></li>
+				</ul>
+				<ul class="footer-pl">
+					<li><a href="#">Сравнить</a></li>
+					<li><a href="#">Корзина</a></li>
+				</ul>
+			</div>
 	  	</section>
-		<p class="adress">
-			г. Москва, ул. Строителей 15
-		</p>
-		<div>
-			<ul class="footer-nl">
-				<li><a href="delivery.html">Доставка</a></li>
-				<li><a href="warranty.html">Гарантия</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-			</ul>       
-	  	</div>
+	  	<div class="footer-inf-wrap">
+			<p class="adress">
+				г. Москва, ул. Строителей 15
+			</p>
+			<div>
+				<ul class="footer-nl">
+					<li><a href="delivery.html">Доставка</a></li>
+					<li><a href="warranty.html">Гарантия</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>       
+		  	</div>
     		<p class="contact-number">
 				Тел: +7(495)495-95-95
 			</p>
-		<div>
-			<ul class="social-sites">
-				<li><a href="http://www.facebook.com">facebook</a></li>
-				<li><a href="http://www.instagram.com">instagram</a></li>
-				<li><a href="http://www.twitter.com">twitter</a></li>	
-			</ul>
 		</div>
-		<p class="html-ac">
-			Разработанно:
-				<a href="http://htmlacademy.ru">HTML Academy</a>
-		</p>
+		<div class="footer-buttom">
+			<div>
+				<ul class="social-sites">
+					<li><a href="http://www.facebook.com">facebook</a></li>
+					<li><a href="http://www.instagram.com">instagram</a></li>
+					<li><a href="http://www.twitter.com">twitter</a></li>	
+				</ul>
+			</div>
+			<p class="html-ac">
+				Разработанно:
+					<a href="http://htmlacademy.ru">HTML Academy</a>
+			</p>
+		</div>
     </footer>
 </body>
 </html>
