@@ -10,20 +10,25 @@
 	<header class="header-catalog container">
 		<section class="user-nav">
 			<h3 class="visually-hidden">Личный кабинет</h3>
-			<a class="logo-header"><img src="img/device_logo.svg" name="Лого" alt="Логотип Device"></a>
+			<a class="logo-header-cat">
+				<img src="img/device.svg" name="Лого" alt="Логотип Device">
+			</a>
 			<div class="user-nav-wrapper">
-				<form class="form-search" action="#" method="post">
-	        		<label for="search">Поиск по сайту</label>
-	       		    <input type="search" name="search" id="search">
-	       		</form>
-				<ul class="user-list-cat">
-					<li><a href="#">Валентин Петухов</a></li>
-					<li><a href="#">Выйти</a></li>
-				</ul>
-				<ul class="purchase-list">
-					<li><a href="#">Сравнить</a></li>
-					<li><a href="#">Корзина</a></li>
-				</ul>
+				<form class="form-wrapper" action="#" method="post">
+					<img class="search-pic" src="img/search.svg">
+		        	<label class="form-search" for="search">Поиск по сайту</label>
+		       		<input type="search" name="search" id="search">
+		       	</form>
+		       	<div class="user-list-wrapper-cat">
+					<ul class="user-list-cat">
+						<li><a class="name-link" href="#"><span>Валентин Петухов</span></a></li>
+						<li><a href="#">Выйти</a></li>
+					</ul>
+					<ul class="purchase-list-cat">
+						<li><a class="compare-link-cat" href="#">Сравнить</a></li>
+						<li><a class="cart-link-cat" href="#">Корзина</a></li>
+					</ul>
+				</div>
 			</div>
 	  	</section>
 	        <nav class="header-navigation">
@@ -48,8 +53,8 @@
 	    	<h1 class="catalog-head">Моноподы для селфи</h1>
 		    	<div class="div-list">
 		    		<ul class="list-nav">
-			    		<li><a href="index.html">Главная</a></li>
-			    		<li><a href="catalog.html">Каталог товаров</a></li>
+			    		<li><a class="arrow" href="index.html">Главная</a></li>
+			    		<li><a class="arrow-2" href="catalog.html">Каталог товаров</a></li>
 			    		<li><a href="#">Моноподы для селфи</a></li>
 			    	</ul>
 		    	</div>
@@ -139,47 +144,50 @@
     </main>
     <footer class="footer-catalog">
     	<div class="container">
-	    	<section class="user-nav-footer">
+	    	<section class="nav-footer">
 	    		<h3 class="visually-hidden">Личный кабинет</h3>
-				<a class="logo-footer"><img src="img/logo_mc.svg" name="Лого" alt="Логотип Device"></a>
-				<div class="footer-user-wrapper">
-					<ul class="footer-ul">
-						<li><a href="#">Валентин Петухов</a></li>
-						<li><a href="#">Войти</a></li>
+				<a class="logo-footer-ct"><img src="img/logo_mc.svg" name="Лого" alt="Логотип Device"></a>
+				<div class="info-user">
+					<ul class="info-wrapper">
+						<li><a class="petuhov" href="#"><span>Валентин Петухов</span></a></li>
+						<li><a href="#">Выйти</a></li>
 					</ul>
-					<ul class="footer-pl">
-						<li><a href="#">Сравнить</a></li>
-						<li><a href="#">Корзина</a></li>
+					<ul class="purchase-footer">
+						<li><a class="compare-footer-ct" href="#">Сравнить</a></li>
+						<li><a class="cart-footer-ct" href="#">Корзина</a></li>
 					</ul>
 				</div>
 		  	</section>
-		  	<div class="footer-inf-wrap">
-				<p class="adress">
+		  	<div class="footer-inf-part">
+				<p class="adress-ct">
 					г. Москва, ул. Строителей 15
 				</p>
 				<div>
-					<ul class="footer-nl">
+					<ul class="footer-nl-ct">
 						<li><a href="delivery.html">Доставка</a></li>
 						<li><a href="warranty.html">Гарантия</a></li>
 						<li><a href="contacts.html">Контакты</a></li>
 					</ul>       
 			  	</div>
-	    		<p class="contact-number">
+	    		<p class="contact-number-ct">
 					Тел: +7(495)495-95-95
 				</p>
 			</div>
-			<div class="footer-buttom">
-				<div>
-					<ul class="social-sites">
-						<li><a href="http://www.facebook.com">facebook</a></li>
-						<li><a href="http://www.instagram.com">instagram</a></li>
-						<li><a href="http://www.twitter.com">twitter</a></li>	
-					</ul>
+			<div class="footer-buttom-ct">
+				<ul class="social-link-ct">
+					<li>
+						<a class="fb-footer-ct" href="http://www.facebook.com"><span class="visually-hidden">facebook</span></a>
+					</li>
+					<li>
+						<a class="inst-footer-ct" href="http://www.instagram.com"><span class="visually-hidden">instagram</span></a>
+					</li>
+					<li>
+						<a class="tw-footer-ct" href="http://www.twitter.com"><span class="visually-hidden">twitter</span></a>
+					</li>	
+				</ul>
+				<div class="html-ac-ct">
+					<a href="http://htmlacademy.ru"><span class="visually-hidden">HTML Academy</span></a>
 				</div>
-				<p class="html-ac">
-					Разработанно:
-						<a href="http://htmlacademy.ru">HTML Academy</a>
-				</p>
 			</div>
 		</div>
     </footer>
