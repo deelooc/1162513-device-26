@@ -3,7 +3,8 @@
 	src: url("../fonts/gilroylight.woff") format("woff");
 	font-weight: lighter;
 	font-style: normal;
-}
+}    
+
 @font-face {
 	font-family: "Gilroy";
 	src: url("../fonts/gilroylight.woff2") format("woff2");
@@ -1193,6 +1194,11 @@ color: rgba(0, 0, 0, 0.6);
   opacity: 0.3
 }
 
+
+
+
+
+
 .adress {
   display: flex;
   margin: 0;
@@ -1786,7 +1792,6 @@ color: rgba(0, 0, 0, 0.6);
   margin: 0;
   padding: 0;
   list-style: none;
-  /*outline: 2px solid purple;*/
 }
 
 .footer-catalog {
