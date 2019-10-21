@@ -32,23 +32,30 @@
 	  	</section>
 	    <nav class="header-navigation">
 	        <ul class="nav-list">
-	        	<li><a class="catalog-link" href="#">Каталог товаров</a>
-	        		<ul class="items-list">
-	        			<li><a href="#">Виртуальная реальность</a></li>
-	        			<li><a href="#">Моноподы для селфи</a></li>
-	        			<li><a href="#">Экшн-камер</a></li>
-	        			<li><a href="#">Фитнес-браслеты</a></li>
-	        			<li><a href="#">Умные часы</a></li>
-	        			<li><a href="#">Квадрокоптеры</a></li>
-	        		</ul> 
+	        	<li class="pzd">
+	        		<a class="catalog-link" href="#">Каталог товаров</a>
+		        	<div class="pzd-wrapper">
+		        		<ul class="pzd1">
+				        	<li><a href="#">Виртуальная реальность</a></li>
+				        	<li><a href="#">Моноподы для селфи</a></li>
+				        	<li><a href="#">Экшн-камер</a></li>
+				        </ul>
+				        <ul class="pzd2">
+				        	<li><a href="#">Фитнес-браслеты</a></li>
+				        	<li><a href="#">Умные часы</a></li>
+				        </ul>
+				        <ul class="pzd3">
+				        	<li><a href="#">Квадрокоптеры</a></li>
+			        	</ul>
+			     	</div>
 	        	</li>
 	        	<li><a href="delivery.html">Доставка</a></li>
 	        	<li><a href="warranty.html">Гарантия</a></li>
 	        	<li><a href="contacts.html">Контакты</a></li>
 	        </ul>
 	    </nav>
+	 <div class="white-line"></div>
     </header>
-   
     <main class="main-tool">
     	<h1 class="visually-hidden">Интернет магазин DEVICE</h1>
 	    <div class="container">
@@ -88,24 +95,6 @@
 					</div>
 				</section>
 			</div>
-		</div>
-		<div class="popup">
-			<form action="#" method="post">
-				<p>
-					<label for="Ваше имя:">Ваше имя:</label>
-					<input type="text" name="Ваше имя:" placeholder="Имя Фамилия">
-				<p>
-					<label for="Ваш e-mail:">Ваш e-mail:</label>
-					<input type="text" name="Ваш e-mail:" placeholder="email@example.c">
-				</p>
-				<p>
-					<textarea name="comment" id="comment-field" rows="10" placeholder="В свободной форме">Текст письма</textarea>
-					<input type="submit" value="Отправить">
-				</p>
-		</form>
-		</div>
-		<div class="popup">
-			<a href="#"><img src="img/map-big-jpg.jpg" alt="Карта"></a>	
 		</div>
     </main>
     <footer class="footer-index">
@@ -157,5 +146,41 @@
 			</div>
     	</div>
     </footer>
+
+    <!--Форма обратной связи
+
+	<section class="modal modal-form">
+		<form  action="https://echo.htmlacademy.ru" method="post">
+	        <div class="contact-form-modal">
+		        <p class="modal-item-1">
+		          <label class="label-modal" for="name-form">Ваше имя:</label>
+		          <input class="input-modal" id="name-form" type="text" name="date" value="" placeholder="Имя Фамилия">
+		        </p>
+		        <p class="modal-item-2">
+		          <label class="label-modal" for="email-form">Ваш e-mail:</label>
+		          <input class="input-modal" id="email-form" type="text" name="time" value="" placeholder="email@example.com">
+		        </p>
+			</div>
+			<div>
+		        <p class="modal-text">
+		          <label class="text-title-modal" for="text-box">Текст письма:</label>
+		          <input class="modal-text-box" id="text-box" type="text" name="name" value="" placeholder="В свободной форме">
+		        </p>
+		        <div class="contact-form">
+			    	<button class="contact-us-modal modal-button" type="submit">Отправить</button>
+			    </div>
+			</div>
+	    </form>
+	 	<button class="modal-close" type="button"></button>
+	</section>
+	-->
+
+	<!--Увеличенная карта
+
+	<section class="modal-2 modal-form-2">
+	 	<button class="modal-close-2" type="button"></button>
+	 	<img class="big-map-modal" src="img/map-big-jpg.jpg">
+	</section>
+	
 </body>
 </html>
